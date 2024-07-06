@@ -31,7 +31,7 @@ Em seguida, instale as bibliotecas necessárias usando o seguinte comando:
 pip install cryptography pycryptodome matplotlib tabulate pytest pytest-benchmark
 ```
 ## Organização
-O código está dividido em duas pastas, [Cryptography](https://github.com/anacarlaquallio/tcc1/tree/main/Python/Cryptography) e [Pycryptodome](https://github.com/anacarlaquallio/tcc1/tree/main/Python/Pycryptodome). Nas duas pastas, tem-se a organização:
+O código está dividido em duas pastas, [Cryptography](https://github.com/anacarlaquallio/WTICG-SBSeg/tree/main/Cryptography) e [Pycryptodome](https://github.com/anacarlaquallio/WTICG-SBSeg/tree/main/Pycryptodome). Nas duas pastas, tem-se a organização:
 
 - **`api.py`**: 
   Este arquivo apresenta uma implementação do RSA com base na documentação da biblioteca, sendo a base para as implementações de microbenchmarking.
