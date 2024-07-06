@@ -19,7 +19,7 @@ Avaliação de diferentes implementações do sistema de criptografia RSA
 ## Introdução
 Os experimentos iniciais foram conduzidos na linguagem de programação Python, com uso de duas bibliotecas criptográficas, [Cryptography](https://cryptography.io/) e [Pycryptodome](https://pycryptodome.readthedocs.io/). São considerados dois tamanhos de chaves, `2048` e `4096` bits, e um conjunto de iterações `[10, 100, 1000, 10000]`. Os testes foram repetidos `5` vezes, a maior parte em dias distintos.
 
-No que tange ao microbenchmarking, utiliza-se o pytest, uma ferramenta de testes do Python, para a medição de tempo médio. Além disso, apresenta-se uma versão que não utiliza uma versão específica de microbenchmarking, utilizando a biblioteca timeit. 
+No que tange ao microbenchmarking, utiliza-se o pytest para a medição de tempo médio. Além disso, apresenta-se uma versão que não sem o uso de versão específica de microbenchmarking.
 
 ## Instalação
 
